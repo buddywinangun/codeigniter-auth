@@ -1,5 +1,5 @@
 {
-    "name": "buddywinangun/codeigniter-xtend-auth",
+    "name": "buddywinangun/codeigniter-auth",
     "description": "Codeigniter Xtend Auth",
     "type": "library",
     "license": "MIT",
@@ -17,5 +17,10 @@
     "minimum-stability": "stable",
     "require": {
         "firebase/php-jwt": "^6.10"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.2-dev"
+        }
     }
 }
