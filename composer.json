@@ -14,13 +14,18 @@
             "email": "buddywinangun@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
+        "php": "^7.0|~8.1.0",
         "firebase/php-jwt": "^6.10"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "3.2-dev"
+            "dev-master": "4.1-dev"
         }
-    }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
